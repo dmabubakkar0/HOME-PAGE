@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,600;1,600&family=Nanum+Gothic&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,600;1,600&family=Nanum+Gothic&family=Palanquin+Dark:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,600;1,600&family=Nanum+Gothic&family=Palanquin+Dark:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prosto+One&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Prosto One", sans-serif;
+    font-family: "Palanquin Dark", sans-serif;
+    font-family: "Nanum Gothic", sans-serif;
+}
+body {
+
+background: #fff;
+
+}
+   
+.container {
+max-width: 1260px;
+padding: 0 60px;
+margin: auto;
+}
+ .section-01 {
+  
+   background: url(Rectangle\ 1249.jpg);
+  background-repeat: no-repeat;
+  background-position: right; 
+    min-height: 832px;
+}
+ 
+
+ 
+
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    
+    gap: 130px;
+    align-items: center;
+    
+    height: 80px;
+    background-color: #ffffff;
+    background: transparent;
+    position:  relative;
+   
+    
+  }
+
+
+.logo {
+    font-size: 48px;
+    line-height: 1.0833333333333333em;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    color:#7B66FF ;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    padding-right: 50px;
+    
+}
+
+ 
+
+
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 24px;
+    line-height: 1.7916666666666667em;
+    font-family: "Palanquin Dark", sans-serif;
+    font-weight:400 ;
+}
+nav a:hover {
+    color: #7B66FF;
+}
+
+input {
+    display: none;
+}
+
+
+
+.button {
+ 
+    padding: 0px 19px;
+    border: 0;
+     
+    font-family: "Palanquin Dark", sans-serif;
+    background-color: #7B66FF;
+    transition: all 0.02s;
+    color:  #000000;
+    font-size: 24px;
+    line-height: 1.7916666666666667em;
+    
+  }
+  
+  .button:hover {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+  
+/* HERO STRAT  */
+
+
+.hero {
+    padding-top: 110px;
+    display: flex;
+     
+    gap:177px;
+}
+
+
+.first_content {
+    max-width: 489px;
+    min-height: 527px;
+     
+}
+
+.first_content h1 {
+    font-size: 64px;
+    line-height: 1.234375em;
+    font-family: "Prosto One", sans-serif;
+    font-weight: 400;
+    color: #000;
+    padding-bottom: 27px;
+}
+.first_content p {
+    font-size: 24px;
+    line-height: 1.1958333333333333em;
+    font-family: "Palanquin Dark", sans-serif;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+.secend_content {
+    position: absolute;
+    right: 0;
+}
+
+
+/* text here css  */
+ 
+.input-group {
+    padding-top: 34px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+  }
+  
+  .input {
+    display: block;
+    min-height: 50px;
+    max-width: 183px;
+    padding: 0 -1rem;
+   
+    font-size: 15px;
+     
+ border-radius: 10px;
+    background-color: transparent;
+}
+  
+.button--submit {
+    min-height: 47px;
+    padding: 0 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #5FBDFF;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+    display: block;
+}
+  
+  .button--submit:hover {
+    background-color: #5e5dcd;
+  }
+  
+  .input:focus, .input:focus-visible {
+     
+    outline: none;
+  }
+/* ***********   */
+
+
+.socile_icon {
+    padding-top: 30px;
+    display: flex;
+    gap: 26px;
+}
+
+.fa-brands {
+    font-size: 40px;
+ color: #7B66FF;
+}
+
+ 
+
+
+.first_content h6 {
+  
+    padding-top: 20px;
+ font-size: 20px;
+ line-height: 1.1em;
+ font-family: "Nanum Gothic", sans-serif;
+ font-weight: 400;
+ color: #000;
+}
+.fa-solid {
+   font-size: 24px;
+   color: #7B66FF;
+   padding-top: 5px;
+}
+
+
+
+
+
+
+ 
+
+ @media (min-width:320px)and (max-width:767px) {
+    .section-01 {
+        background: url(Rectangle\ 1249.jpg);
+        background-repeat: no-repeat;
+        
+        
+    }
+   
+   .section-01 .container {
+    padding: 0 0;
+   }
+   
+   header {
+    width: 100%;
+   }
+   
+   
+    nav {
+        position:  absolute;
+        top: 100%;
+        left: 0;
+        background: rgba(255, 255, 255, 0.603);
+        backdrop-filter: bluer (10px);
+        width:100%;
+        height: 0vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 20px;
+        overflow: hidden;
+        transition: .5s;
+        z-index: 100;
+
+    }
+    
+nav a:nth-child(1) {
+    margin-top: 50px;
+}
+label {
+    width: 45px;
+    height: 30px;
+    position: relative;
+}
+
+label div {
+    width: 100%;
+    height: 5px;
+    background: #000;
+transition: .3s;
+    position:  absolute;
+    border: 99px;
+    transform: translate(-50%);
+    transform: scale(1);
+    opacity: 1;
+    z-index: 100;
+
+}
+
+
+label div:nth-child(1) {
+    top: 0;
+}
+
+label div:nth-child(2) {
+    top: 50%;
+}
+label div:nth-child(1) {
+    top: 100%;
+}
+input:checked + header nav {
+    height: 100vh;
+}
+
+input:checked + header label div:nth-child(1) {
+    transform: rotate(45deg);
+    top: 50%;
+}
+
+input:checked + header label div:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 50%;
+}
+input:checked + header label div:nth-child(2) {
+    transform:  scale(0);
+    opacity: 0;
+}
+
+
+
+
+
+
+ }
+
+
+
+
+@media  (max-width:767px) {
+    
+
+    .hero {
+ 
+        display: flex;
+        gap: 177px;
+        flex-direction: column-reverse;
+    }
+    .first_content {
+        display: flex;
+      
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .secend_content {
+        position: relative;
+        right: 0;
+      
+        left: 33px;
+    }
+    
+    .secend_content  img {
+        width: 395px;
+    }
+    
+}
+
+
+
