@@ -240,6 +240,69 @@ input {
 
 
 
+@media  (max-width:1024px) {
+    
+
+    header {
+        display: flex;
+        justify-content:flex-start;
+
+        gap: 20px;
+      
+    }
+
+    nav {
+       
+        gap: 31px;
+        
+    }
+
+
+
+
+    .first_content h1 {
+        font-size: 38px;
+      
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  
